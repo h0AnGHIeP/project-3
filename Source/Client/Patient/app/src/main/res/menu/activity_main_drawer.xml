@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/ic_user"
+            android:title="@string/menu_dashboard" />
+        <item
+            android:id="@+id/nav_prescription"
+            android:icon="@drawable/ic_prescription"
+            android:title="@string/menu_prescription" />
+        <item
+            android:id="@+id/nav_doctor"
+            android:icon="@drawable/ic_stethoscope"
+            android:title="@string/menu_doctor" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_bell_ring_alarm"
+            android:title="@string/menu_settings" />
+        <item
+            android:id="@+id/nav_test"
+            android:icon="@drawable/ic_medical_test"
+            android:title="@string/menu_test" />
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/ic_map2"
+            android:title="@string/menu_map" />
+    </group>
+</menu>

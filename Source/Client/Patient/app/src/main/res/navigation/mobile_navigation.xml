@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_dashboard">
+
+    <fragment
+        android:id="@+id/nav_dashboard"
+        android:name="com.edu.hoang.ui.dashboard.DashboardFragment"
+        android:label="@string/menu_dashboard"
+        tools:layout="@layout/fragment_dashboard" >
+        <action
+            android:id="@+id/action_nav_dashboard_to_nav_doctor"
+            app:destination="@id/nav_doctor" />
+        <action
+            android:id="@+id/action_nav_dashboard_to_nav_settings"
+            app:destination="@id/nav_settings" />
+        <action
+            android:id="@+id/action_nav_dashboard_to_nav_test"
+            app:destination="@id/nav_test" />
+        <action
+            android:id="@+id/action_nav_dashboard_to_nav_prescription"
+            app:destination="@id/nav_prescription" />
+        <action
+            android:id="@+id/action_nav_dashboard_to_hanoiMapFragment"
+            app:destination="@id/nav_map" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_prescription"
+        android:name="com.edu.hoang.ui.prescription.PrescriptionDetailsFragment"
+        android:label="@string/menu_prescription"
+        tools:layout="@layout/fragment_prescription" >
+        <action
+            android:id="@+id/action_nav_prescription_to_nav_prescription_history"
+            app:destination="@id/nav_prescription_history" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_doctor"
+        android:name="com.edu.hoang.ui.doctor.DoctorDetailsFragment"
+        android:label="@string/menu_doctor"
+        tools:layout="@layout/fragment_doctor" />
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.edu.hoang.ui.settings.SettingsFragment"
+        android:label="@string/menu_settings"
+        tools:layout="@layout/fragment_settings"/>
+    <fragment
+        android:id="@+id/nav_test"
+        android:name="com.edu.hoang.ui.test.TestFragment"
+        android:label="@string/menu_test"
+        tools:layout="@layout/fragment_recent_test" />
+    <fragment
+        android:id="@+id/nav_prescription_history"
+        android:name="com.edu.hoang.ui.prescription.PrescriptionHistoryFragment"
+        android:label="@string/menu_prescription_history"
+        tools:layout="@layout/fragment_prescription_history"/>
+    <fragment
+        android:id="@+id/nav_map"
+        android:name="com.edu.hoang.ui.map.HanoiMapFragment"
+        android:label="@string/menu_map"
+        tools:layout="@layout/fragment_map"/>
+</navigation>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Diabetes Monitor</string>
+    <string name="nav_header_title">Theo dõi sức khỏe</string>
+    <string name="nav_header_subtitle">Phần mềm dành cho bệnh nhân tiểu đường</string>
+    <string name="nav_header_desc">Điều hướng</string>
+    <string name="action_settings">Cài đặt</string>
+    <string name="menu_dashboard">Thông tin</string>
+    <string name="menu_prescription">Đơn thuốc</string>
+    <string name="menu_doctor">Bác sĩ quản lý</string>
+    <string name="menu_settings">Cài đặt</string>
+    <string name="menu_test">Kết quả xét nghiệm</string>
+    <string name="menu_map">Bản đồ</string>
+    <string name="notification_title">Thông báo</string>
+    <string name="menu_prescription_history">Đơn thuốc đã dùng</string>
+    <string name="number_format_exception">Id phải là một số</string>
+    <string name="doctor_details_label">Thông tin bác sĩ</string>
+    <string name="prescription_label">Đơn thuốc</string>
+    <string name="personal_information_label">Thông tin cá nhân</string>
+    <string name="create_test_label">Tạo kết quả xét nghiệm</string>
+    <string name="reminder_settings_label">Cài đặt thông báo</string>
+    <string name="id_label">Id:</string>
+    <string name="name_label">Tên:</string>
+    <string name="age_label">Tuổi:</string>
+    <string name="job_label">Nghề nghiệp:</string>
+    <string name="i_card_label">Căn cước:</string>
+    <string name="address_label">Địa chỉ:</string>
+    <string name="contact_label">Liên lạc</string>
+    <string name="height_label">Chiều cao:</string>
+    <string name="weight_label">Cân nặng:</string>
+    <string name="sex_label">Giới tính:</string>
+    <string name="begin_label">Ngày bị bệnh:</string>
+    <string name="country_label">Quê quán:</string>
+    <string name="start_treatment_label">Ngày điều trị:</string>
+    <string name="symptoms_label">Triệu chứng thường thấy:</string>
+    <string name="history_label">Tiền sử:</string>
+    <string name="type_label">Tuýp:</string>
+    <string name="start_working_label">Bắt đầu làm việc:</string>
+    <string name="faculty_label">Khoa:</string>
+    <string name="hospital_label">Bệnh viện:</string>
+    <string name="position_label">Chức vụ:</string>
+    <string name="call_label">Gọi</string>
+    <string name="recent_prescription_label">Đơn thuốc đang dùng</string>
+    <string name="start_label">Bắt đầu:</string>
+    <string name="end_label">Dừng:</string>
+    <string name="expect_label">Kết quả mong muốn:</string>
+    <string name="note_label">Chú thích</string>
+    <string name="server_ip_address_label">Địa chỉ IP của server</string>
+    <string name="user_id_label">ID của người dùng</string>
+    <string name="basic_login_label">Kiểm tra người dùng</string>
+    <string name="login_label">Đăng nhập</string>
+    <string name="prescription_history_label">Đơn thuốc đã dùng</string>
+    <string name="add_new_test_label">Thêm kết quả</string>
+    <string name="test_results_label">Kết quả xét nghiệm</string>
+    <string name="add_label">Thêm</string>
+    <string name="time_label">Thời gian</string>
+    <string name="duration_label">Kéo dài</string>
+    <string name="dose_label">Liều</string>
+    <string name="content_label">Nội dung</string>
+    <string name="drug_name_label">Tên thuốc</string>
+    <string name="drug_instruction_label">Chỉ dẫn</string>
+    <string name="drug_label">Loại thuốc</string>
+    <string name="change_label">Thay đổi</string>
+    <string name="drug_note_label">Ghi chú</string>
+    <string name="delete_label">Xóa</string>
+    <string name="disable_label">Tắt</string>
+    <string name="enable_label">Bật</string>
+    <string name="active_label">Hoạt động</string>
+    <string name="hba1c_label">Hba1c</string>
+    <string name="random_label">Ngẫu nhiên</string>
+    <string name="craving_label">Đói</string>
+    <string name="after_meal_label">Sau bữa ăn</string>
+    <string name="date_label">Ngày</string>
+    <string name="description_label">Mô tả</string>
+    <string name="years_old_label">" "</string>
+
+    <string-array name="spinner_items">
+        <item>Kết quả HbA1C</item>
+        <item>Glucose thử ngẫu</item>
+        <item>Glucose khi đói</item>
+        <item>Glucose sau khi </item>
+    </string-array>
+</resources>

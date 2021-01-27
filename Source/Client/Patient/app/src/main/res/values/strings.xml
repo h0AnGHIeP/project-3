@@ -1,0 +1,110 @@
+<resources>
+    <string name="app_name">Diabetes Monitor</string>
+<!--    host server IP Address-->
+    <string name="host_server" translatable="false">172.16.135.255</string>
+
+    <string name="nav_header_title">Medical monitor</string>
+    <string name="nav_header_subtitle">Application for diabetes patients</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+
+    <string name="action_settings">Settings</string>
+
+<!--    Navigation Labels-->
+    <string name="menu_dashboard">Dashboard</string>
+    <string name="menu_prescription">Prescription</string>
+    <string name="menu_doctor">Doctor details</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_test">Test</string>
+    <string name="menu_map">Map</string>
+
+<!--    Database name-->
+    <string name="database_name" translatable="false">com.edu.hoang.medical.database</string>
+
+<!--    Notification Channel name-->
+    <string name="channel_name" translatable="false">com.edu.hoang.MEDICAL_CHANNEL</string>
+    <string name="notification_title">Title</string>
+    <string name="menu_prescription_history">History</string>
+
+
+<!--    Google map Api key-->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyAhckk5jfmrXV6yg0SuojnmFox3ft4mXQU</string>
+
+<!--    Login Activity-->
+    <string name="number_format_exception">Id must be number</string>
+
+<!--    Patient and doctor details fragment-->
+    <string name="doctor_details_label">Doctor Details</string>
+    <string name="prescription_label">Prescription</string>
+    <string name="personal_information_label">Personal Information</string>
+    <string name="create_test_label">Create test</string>
+    <string name="reminder_settings_label">Reminder Settings</string>
+    <string name="id_label">Id:</string>
+    <string name="name_label">Name:</string>
+    <string name="age_label">Age:</string>
+    <string name="job_label">Job:</string>
+    <string name="i_card_label">Identity:</string>
+    <string name="address_label">Address:</string>
+    <string name="contact_label">Contact:</string>
+    <string name="height_label">Height:</string>
+    <string name="weight_label">Weight:</string>
+    <string name="sex_label">Sex:</string>
+    <string name="begin_label">Begin:</string>
+    <string name="country_label">Country:</string>
+    <string name="start_treatment_label">Start treatment:</string>
+    <string name="symptoms_label">Symptoms:</string>
+    <string name="history_label">History:</string>
+    <string name="type_label">Type:</string>
+    <string name="start_working_label">Start working:</string>
+    <string name="faculty_label">Faculty:</string>
+    <string name="hospital_label">Hospital:</string>
+    <string name="position_label">Position:</string>
+    <string name="call_label">Call</string>
+    <string name="cm_label" translatable="false">cm</string>
+    <string name="kg_label" translatable="false">kg</string>
+    <string name="years_old_label">years old</string>
+
+<!--    Prescription fragment-->
+    <string name="recent_prescription_label">Recent prescription</string>
+    <string name="start_label">Start:</string>
+    <string name="end_label">End:</string>
+    <string name="expect_label">Expect:</string>
+    <string name="note_label">Note:</string>
+    <string name="server_ip_address_label">Server Ip Address</string>
+    <string name="user_id_label">User Id</string>
+    <string name="basic_login_label">Basic Login</string>
+    <string name="login_label">Login</string>
+    <string name="prescription_history_label">Prescription History</string>
+    <string name="add_new_test_label">Add new test</string>
+    <string name="test_results_label">Test Results</string>
+    <string name="add_label">Add</string>
+    <string name="time_label">Time</string>
+    <string name="duration_label">Duration</string>
+    <string name="dose_label">Dose</string>
+    <string name="content_label">Content</string>
+    <string name="drug_name_label">Drug name</string>
+    <string name="drug_instruction_label">Drug Instruction</string>
+    <string name="drug_label">Drug</string>
+    <string name="change_label">Change</string>
+    <string name="drug_note_label">Drug note</string>
+    <string name="delete_label">Delete</string>
+    <string name="disable_label">Disable</string>
+    <string name="enable_label">Enable</string>
+    <string name="active_label">Active</string>
+    <string name="hba1c_label">hba1c</string>
+    <string name="random_label">random</string>
+    <string name="craving_label">craving</string>
+    <string name="after_meal_label">after meal</string>
+    <string name="date_label">date</string>
+    <string name="description_label">description</string>
+    <string name="hba1c_unit" translatable="false">%</string>
+    <string name="mg_l_unit" translatable="false">mg/l</string>
+
+    <!--    Test Fragment-->
+    <string-array name="spinner_items">
+        <item>HbA1C Test</item>
+        <item>Quick random glucose</item>
+        <item>Starving test glucose</item>
+        <item>Test glucose after eating</item>
+    </string-array>
+</resources>
